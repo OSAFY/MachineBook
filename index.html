@@ -6,8 +6,31 @@
 <link rel="stylesheet" type="text/css" href="css/style.css"/>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> 
 <title>MaschineBook</title>
+<script type="text/javascript" src="js/zepto.min.js"></script>
+<script>
+$(document).ready(function() {
+	$(".add").on('click', function() {
+		$(".newmachine").toggleClass("newmachinesichtbar");
+	})
+	$("#button").on('click', function() {
+		$(".newmachine").toggleClass("newmachinesichtbar");
+	})
+	$("#button2").on('click', function() {
+		$(".newmachine").toggleClass("newmachinesichtbar");
+	})
+});
+</script>
 </head>
 
 <body>
+<div id="new">
+<img class="add" src="bilder/new.png" width="48" height="48" alt="new" />
+</div>
+<div class="newmachine">
+		<input name="machinename" type="text" placeholder="Name" />
+        <textarea id="desription" placeholder="Beschreibung"></textarea>
+        <button id="button">Senden</button>
+        <button id="button2">Abbrechen</button>        
+</div>
 </body>
 </html>
