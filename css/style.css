@@ -27,7 +27,11 @@ html, body{
 	width:100%;
 	height: 100%;
 	color: #fff;
+<<<<<<< HEAD
 	-webkit-transition: margin-left 1s none;
+=======
+	-webkit-transition: margin-left 1s ease-in-out;
+>>>>>>> ca23d17735d58db39b99610d4c1e9bc1bb16090f
 	padding: 3%;
 	background-color: #fff;
 }
@@ -54,7 +58,10 @@ html, body{
 
 .newmachinesichtbar{
 	margin-left: 0;
+<<<<<<< HEAD
 	width: 94%;
+=======
+>>>>>>> ca23d17735d58db39b99610d4c1e9bc1bb16090f
 }
 
 #button{
